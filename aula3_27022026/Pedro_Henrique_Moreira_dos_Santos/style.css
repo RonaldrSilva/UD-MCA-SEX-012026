@@ -1,32 +1,46 @@
+/* Estilo geral da página */
 body {
-            background-color: #f0f0f0;
-        }
+    background-color: #f0f2f5;          /* cor de fundo */
+    font-family: Arial, Verdana, sans-serif; /* fonte */
+    margin: 0;
+    padding: 0;
+}
 
-        h1 {
-            color: white;
-        }body {
-            font-family: Arial;
-            background-color: #f4f4f4;
-        }
+/* Nome (h1) */
+h1 {
+    background-color: #1f3a5f;  /* header com cor diferente */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin: 0;
+}
 
-        header {
-            background-color: #003366;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
+/* Imagem */
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+}
 
-        h2 {
-            color: #003366;
-        }
+/* Seções */
+section {
+    background-color: white;
+    margin: 20px;
+    padding: 15px;              /* espaçamento interno */
+    border-radius: 6px;
+}
 
-        ul {
-            background-color: white;
-            padding: 15px;
-        }
+/* Títulos das seções */
+h2 {
+    color: #1f3a5f;
+}
 
-        footer {
-            text-align: center;
-            margin-top: 20px;
-            font-size: 14px;
-        }
+/* Links */
+a {
+    color: #0066cc;             /* cor do link */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #cc0000;             /* cor ao passar o mouse */
+}
