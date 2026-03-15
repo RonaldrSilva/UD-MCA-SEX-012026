@@ -1,6 +1,6 @@
 body {
-            background-color: #f0f0f0;
-        }
+    background-color: #f0f0f0;
+    }
 
         h1 {
             color: white;
@@ -29,4 +29,12 @@ body {
             text-align: center;
             margin-top: 20px;
             font-size: 14px;
+        }
+        header img {
+            width: 80px;
+            border-radius: 5px;
+        }
+        header h2 {
+            font-size: 18px;
+            color: white;
         }
